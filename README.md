@@ -2,6 +2,7 @@
 
 [![Go Reference](https://pkg.go.dev/badge/github.com/bjaus/null.svg)](https://pkg.go.dev/github.com/bjaus/null)
 [![Go Report Card](https://goreportcard.com/badge/github.com/bjaus/null)](https://goreportcard.com/report/github.com/bjaus/null)
+[![CI](https://github.com/bjaus/null/actions/workflows/ci.yml/badge.svg)](https://github.com/bjaus/null/actions/workflows/ci.yml)
 [![codecov](https://codecov.io/gh/bjaus/null/branch/main/graph/badge.svg)](https://codecov.io/gh/bjaus/null)
 
 Generic nullable type for Go that distinguishes between unset, null, and valid values.
