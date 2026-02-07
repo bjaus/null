@@ -137,7 +137,7 @@ func TestPtr(t *testing.T) {
 	v := New(42)
 	p := v.Ptr()
 	if p == nil {
-		t.Error("Ptr should not be nil for valid value")
+		t.Fatal("Ptr should not be nil for valid value")
 	}
 	if *p != 42 {
 		t.Errorf("expected *Ptr = 42, got %d", *p)

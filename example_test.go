@@ -18,7 +18,7 @@ func Example() {
 	jsonData := `{"name": "Alice", "email": null}`
 
 	var user User
-	json.Unmarshal([]byte(jsonData), &user)
+	_ = json.Unmarshal([]byte(jsonData), &user)
 
 	fmt.Printf("Name set: %v, value: %q\n", user.Name.IsSet(), user.Name.Get())
 	fmt.Printf("Email set: %v, null: %v\n", user.Email.IsSet(), user.Email.IsNull())
